@@ -1,0 +1,63 @@
+.rock,
+.scissors,
+.paper {
+    cursor: pointer;
+    display: inline;
+}
+
+.rock img,
+.scissors img,
+.paper img {
+    width: 150px;
+}
+
+.game-choices {
+    text-align: center;
+}
+
+.banner {
+    height: 350px;
+    border: 1px;
+    display: flex;
+    justify-content: center;
+} 
+ 
+
+.user-winner {
+    
+    height: 240px;
+    background-image: red;
+}
+
+body {
+    background-color:#F3EFEF;
+    
+}
+
+.page_container {
+    margin: 10px;
+}
+
+.scoreboard{
+    width: 50%;
+    margin: 0 auto;    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.userscore{
+    display: inline-block;
+    text-align: center;
+}
+
+.computerscore{
+    display: inline-block;
+    text-align: center;
+}
+
+
+.try-again {
+    cursor: pointer;
+}
+
